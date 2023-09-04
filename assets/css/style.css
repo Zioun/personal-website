@@ -1,0 +1,128 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+p{
+    line-height: 25px;
+}
+/* hero section start */
+.hero-section{
+    background-image: url("../image/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-section .main{
+    height: 850px;
+    position: relative;
+}
+.hero-section .main .width-left{
+    float: left;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.hero-section .main .width-left h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgb(65, 65, 65);
+}
+.hero-section .main .width-left h1{
+    font-size: 50px;
+    color: #FF1A74;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.hero-section .main .width-left p{
+    font-size: 16px;
+    color: #797979;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.hero-section .main .width-left a{
+    padding: 12px 25px;
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #FF1A74;
+
+}
+.hero-section .main .width-right{
+    float: left;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+/* hero section end */
+
+/* biography section start */
+.biography-section{
+    background-image: url("../image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: top;
+}
+.biography-section .main{
+    height: 850px;
+    position: relative;
+}
+.biography-section .main .width-left{
+    float: left;
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.biography-section .main .width-right{
+    float: left;
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.biography-section .main .width-right h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgb(65, 65, 65);
+}
+.biography-section .main .width-right p{
+    font-size: 16px;
+    color: #797979;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.biography-section .main .width-right a{
+    padding: 12px 25px;
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #FF1A74;
+
+}
+/* biography section end */
